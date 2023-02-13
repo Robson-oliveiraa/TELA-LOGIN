@@ -8,144 +8,428 @@ body{
     background: #c8c8c8;
     height: 97vh;
 }
+@media (min-width: 320px){
+    #Teste{
+        display: flex;
+        justify-content: center;
+    }
 
-#Teste{
-    display: flex;
-    justify-content: center;
-}
-
-#Header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 15px 0 80px 0;
-    padding: 10px 10px 20px 10px;
-    justify-content: space-around;
-    border-bottom: solid 1px black;
-    animation: Header 1s ease-in-out 0.5s 1 normal forwards;
-    opacity: 0;
-}
-
-@keyframes Header{
-    from{
+    #Header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 15px 0 80px 0;
+        padding: 10px 10px 20px 10px;
+        justify-content: space-around;
+        border-bottom: solid 1px black;
+        animation: Header 1s ease-in-out 0.5s 1 normal forwards;
         opacity: 0;
     }
-    to{
-        opacity: 1;
+
+    @keyframes Header{
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+
+    #Login{
+        background-color: #969696;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        height: 240px;
+        padding: 20px;
+        border: solid 1px black;
+        animation: Login 1s ease-in-out 0.5s 1 normal forwards;
+        opacity: 0;
+        box-shadow: 2px 2px 2px #6d6d6d ;
+    }
+
+    @keyframes Login{
+        from {
+            transform: translateX(-500px);
+            opacity: 0;
+        }
+        to{
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    #title{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin:0 0 10px 0;
+    }
+
+    #titleTwo{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        margin:0 0 10px 0;
+    }
+
+    #singIn{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        margin:0 0 10px 0;
+        color: black;
+        transition: color 1s;
+    }
+
+    #singIn:hover{
+        color: #969696;
+    }
+
+    .Label{
+        font-size: 18px;
+        margin: 0 0 4px 0;
+        font-weight: bold;
+    }
+
+    .Input{
+        margin: 0 0 8px 0 ;
+        border-radius: 5px;
+        border: solid 1px black;
+        background: #e1e1e1;
+        padding: 0 0 0 8px;
+        font-size: 18px;
+    }
+
+    .Input::placeholder{
+        font-size: 15px;
+        font-weight: bold;
+        color: #c1c1c1;
+    }
+
+    #Button{
+        background: #e7e7e7;
+        transition: background 1s;
+        width: 10vh;
+        border-radius: 5px;
+        border: solid 1px black;
+        padding: 5px 0 5px 0;
+        cursor: pointer;
+        font-weight: bold;
+        margin: 10px 0 0 0;
+    }
+
+    #Button:focus,#Button:hover{
+        background: #4d4d4d;
+        color: white;
+    }
+
+    #Phatom{
+        width: 10vh;
+    }
+
+    #Footer{
+        position: fixed;
+        bottom: 0;
+        background: rgb(220, 220, 220);
+        width: 200vh;
+        padding: 5px 0 5px 15px;
+        border-top: solid 1px rgb(125, 125, 125);
+        animation: Header 1s ease-in-out 0.5s 1 normal forwards;
+        opacity: 0;
+
+    }
+
+    #footerText{
+        font-size: 12px;
+        font-weight: 600;
+        color: black;
+    }
+
+    #Image{
+        height: 40px;
     }
 }
 
-#Login{
-    background-color: #969696;
-    display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-    height: 35vh;
-    padding: 20px;
-    border: solid 1px black;
-    animation: Login 1s ease-in-out 0.5s 1 normal forwards;
-    opacity: 0;
-    box-shadow: 2px 2px 2px #6d6d6d ;
-}
+@media (min-width: 768px){
+    #Teste{
+        display: flex;
+        justify-content: center;
+    }
 
-@keyframes Login{
-    from {
-        transform: translateX(-500px);
+    #Header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 15px 0 80px 0;
+        padding: 10px 10px 20px 10px;
+        justify-content: space-around;
+        border-bottom: solid 1px black;
+        animation: Header 1s ease-in-out 0.5s 1 normal forwards;
         opacity: 0;
     }
-    to{
-        transform: translateX(0);
-        opacity: 1;
+
+    @keyframes Header{
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+
+    #Login{
+        background-color: #969696;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        height: 240px;
+        padding: 20px;
+        border: solid 1px black;
+        animation: Login 1s ease-in-out 0.5s 1 normal forwards;
+        opacity: 0;
+        box-shadow: 2px 2px 2px #6d6d6d ;
+    }
+
+    @keyframes Login{
+        from {
+            transform: translateX(-500px);
+            opacity: 0;
+        }
+        to{
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    #title{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin:0 0 10px 0;
+    }
+
+    #titleTwo{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        margin:0 0 10px 0;
+    }
+
+    #singIn{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        margin:0 0 10px 0;
+        color: black;
+        transition: color 1s;
+    }
+
+    #singUp:hover{
+        color: #969696;
+    }
+
+    .Label{
+        font-size: 18px;
+        margin: 0 0 4px 0;
+        font-weight: bold;
+    }
+
+    .Input{
+        margin: 0 0 8px 0 ;
+        border-radius: 5px;
+        border: solid 1px black;
+        background: #e1e1e1;
+        padding: 0 0 0 8px;
+        font-size: 18px;
+    }
+
+    .Input::placeholder{
+        font-size: 15px;
+        font-weight: bold;
+        color: #c1c1c1;
+    }
+
+    #Button{
+        background: #e7e7e7;
+        transition: background 1s;
+        width: 10vh;
+        border-radius: 5px;
+        border: solid 1px black;
+        padding: 5px 0 5px 0;
+        cursor: pointer;
+        font-weight: bold;
+        margin: 10px 0 0 0;
+    }
+
+    #Button:focus,#Button:hover{
+        background: #4d4d4d;
+        color: white;
+    }
+
+    #Phatom{
+        width: 10vh;
+    }
+
+    #Footer{
+        position: fixed;
+        bottom: 0;
+        background: rgb(220, 220, 220);
+        width: 200vh;
+        padding: 5px 0 5px 15px;
+        border-top: solid 1px rgb(125, 125, 125);
+        animation: Header 1s ease-in-out 0.5s 1 normal forwards;
+        opacity: 0;
+    }
+
+    #footerText{
+        font-weight: 600;
+        color: black;
+    }
+
+    #Image{
+        height: 40px;
     }
 }
 
-#title{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    margin:0 0 10px 0;
-}
+@media (min-width: 1024px){
+    #Teste{
+        display: flex;
+        justify-content: center;
+    }
 
-#titleTwo{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    margin:0 0 10px 0;
-}
+    #Header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 15px 0 80px 0;
+        padding: 10px 10px 20px 10px;
+        justify-content: space-around;
+        border-bottom: solid 1px black;
+        animation: Header 1s ease-in-out 0.5s 1 normal forwards;
+        opacity: 0;
+    }
 
-#singIn{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    margin:0 0 10px 0;
-    color: black;
-    transition: color 1s;
-}
+    @keyframes Header{
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
 
-#singIn:hover{
-    color: #969696;
-}
+    #Login{
+        background-color: #969696;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        height: 240px;
+        padding: 20px;
+        border: solid 1px black;
+        animation: Login 1s ease-in-out 0.5s 1 normal forwards;
+        opacity: 0;
+        box-shadow: 2px 2px 2px #6d6d6d ;
+    }
 
-.Label{
-    font-size: 18px;
-    margin: 0 0 4px 0;
-    font-weight: bold;
-}
+    @keyframes Login{
+        from {
+            transform: translateX(-500px);
+            opacity: 0;
+        }
+        to{
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
 
-.Input{
-    margin: 0 0 8px 0 ;
-    border-radius: 5px;
-    border: solid 1px black;
-    background: #e1e1e1;
-    padding: 0 0 0 8px;
-    font-size: 18px;
-}
+    #title{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin:0 0 10px 0;
+    }
 
-.Input::placeholder{
-    font-size: 15px;
-    font-weight: bold;
-    color: #c1c1c1;
-}
+    #titleTwo{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        margin:0 0 10px 0;
+    }
 
-#Button{
-    background: #e7e7e7;
-    transition: background 1s;
-    width: 10vh;
-    border-radius: 5px;
-    border: solid 1px black;
-    padding: 5px 0 5px 0;
-    cursor: pointer;
-    font-weight: bold;
-    margin: 10px 0 0 0;
-}
+    #singIn{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        margin:0 0 10px 0;
+        color: black;
+        transition: color 1s;
+    }
 
-#Button:focus,#Button:hover{
-    background: #4d4d4d;
-    color: white;
-}
+    #singUp:hover{
+        color: #969696;
+    }
 
-#Phatom{
-    width: 10vh;
-}
+    .Label{
+        font-size: 18px;
+        margin: 0 0 4px 0;
+        font-weight: bold;
+    }
 
-#Footer{
-    position: fixed;
-    bottom: 0;
-    background: rgb(220, 220, 220);
-    width: 200vh;
-    padding: 5px 0 5px 15px;
-    border-top: solid 1px rgb(125, 125, 125);
-    animation: Header 1s ease-in-out 0.5s 1 normal forwards;
-    opacity: 0;
-    
-}
+    .Input{
+        margin: 0 0 8px 0 ;
+        border-radius: 5px;
+        border: solid 1px black;
+        background: #e1e1e1;
+        padding: 0 0 0 8px;
+        font-size: 18px;
+    }
 
-#footerText{
-    font-size: 18px;
-    font-weight: 600;
-    color: black;
-}
+    .Input::placeholder{
+        font-size: 15px;
+        font-weight: bold;
+        color: #c1c1c1;
+    }
 
-#Image{
-    height: 50px;
+    #Button{
+        background: #e7e7e7;
+        transition: background 1s;
+        width: 10vh;
+        border-radius: 5px;
+        border: solid 1px black;
+        padding: 5px 0 5px 0;
+        cursor: pointer;
+        font-weight: bold;
+        margin: 10px 0 0 0;
+    }
+
+    #Button:focus,#Button:hover{
+        background: #4d4d4d;
+        color: white;
+    }
+
+    #Phatom{
+        width: 10vh;
+    }
+
+    #Footer{
+        position: fixed;
+        bottom: 0;
+        background: rgb(220, 220, 220);
+        width: 200vh;
+        padding: 5px 0 5px 15px;
+        border-top: solid 1px rgb(125, 125, 125);
+        animation: Header 1s ease-in-out 0.5s 1 normal forwards;
+        opacity: 0;
+    }
+
+    #footerText{
+        font-size: 20px;
+        font-weight: 600;
+        color: black;
+    }
+
+    #Image{
+        height: 40px;
+    }
 }
