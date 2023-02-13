@@ -13,13 +13,15 @@ body{
     #Teste{
         display: flex;
         justify-content: center;
+        height: 70vh;
+        align-items: center;
     }
 
     #Header{
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin: 15px 0 80px 0;
+        margin: 15px 0 0 0;
         padding: 10px 10px 20px 10px;
         justify-content: space-around;
         border-bottom: solid 1px black;
@@ -160,7 +162,7 @@ body{
         align-items: center;
     }
 
-    #Header{
+    #Header {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -303,7 +305,7 @@ body{
         align-items: center;
     }
 
-    #Header{
+    #Header {
         display: flex;
         flex-direction: row;
         align-items: center;
