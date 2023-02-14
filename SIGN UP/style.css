@@ -330,7 +330,7 @@ body{
         display: flex;
         flex-direction: column;
         border-radius: 5px;
-        height: 240px;
+        height: 270px;
         padding: 20px;
         border: solid 1px black;
         animation: Login 1s ease-in-out 0.5s 1 normal forwards;
@@ -437,5 +437,39 @@ body{
 
     #Image{
         height: 60px;
+    }
+
+    #vierPassword{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        justify-content: end;
+    }
+
+    #Check{
+        background: red;
+    }
+
+    #Box{
+        font-size: 15px;
+        color: #343434;
+        font-weight: bold;
+    }
+
+    #Password{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        justify-content: end;
+    }
+
+    #Titl{
+
+    }
+
+    #VHR{
+        font-size: 15px;
+        color: #343434;
+        font-weight: bold;
     }
 }

@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css" type="text/css">
-    <link rel="icon" href="./IMAGE/ICON.png" type="icon">     
-    <title>Login</title>
+    <link rel="stylesheet" href="../LOGIN/style.css" type="text/css">
+    <link rel="icon" href="../IMAGE/ICON.png" type="icon">
+    <script defer src="../SCRIPT/script.js"></script>
+    <title>Log in</title>
 </head>
 <body>
     <header id="Header">
-        <img src="./IMAGE/ICON.png" alt="Logo" id="Image">
+        <img src="../IMAGE/ICON.png" alt="Logo" id="Image">
         <p id="titleTwo">Bem-Vindo</p>
-        <a href="./index2.html" rel="link" id="singUp">Sign Up</a>
+        <a href="../SIGN%20UP/index.html" rel="link" id="singUp">Sign Up</a>
     </header>
     <section id="Teste">
         <div id="Login">
@@ -20,7 +21,11 @@
             <label class="Label">Email:</label>
             <input type="email" name="Email" class="Input" placeholder="email">
             <label class="Label">Senhar:</label>
-            <input type="password" name="Password" class="Input" placeholder="Senhar">
+            <input type="password" name="Password" id="inputOne" class="Input" placeholder="Senhar">
+            <div id="vierPassword">
+                <input type="checkbox" name="checkbox" id="Check">
+                <label id="Box">Ver Senhar</label>
+            </div>
             <a href="#" rel="link" id="Phatom">
                 <button type="submit" id="Button">Enviar</button>
             </a>
@@ -30,6 +35,9 @@
         <div id="Text">
             <p id="footerText">Desenvolvido Por Robson &copy;</p>
         </div>
+
     </footer>
+
+
 </body>
 </html>
