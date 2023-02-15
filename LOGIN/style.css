@@ -43,7 +43,7 @@ body{
         display: flex;
         flex-direction: column;
         border-radius: 5px;
-        height: 185px;
+        height: 200px;
         padding: 20px;
         border: solid 1px black;
         animation: Login 1s ease-in-out 0.5s 1 normal forwards;
@@ -205,7 +205,7 @@ body{
         display: flex;
         flex-direction: column;
         border-radius: 5px;
-        height: 185px;
+        height: 200px;
         padding: 20px;
         border: solid 1px black;
         animation: Login 1s ease-in-out 0.5s 1 normal forwards;
@@ -365,7 +365,7 @@ body{
         display: flex;
         flex-direction: column;
         border-radius: 5px;
-        height: 185px;
+        height: 200px;
         padding: 20px;
         border: solid 1px black;
         animation: Login 1s ease-in-out 0.5s 1 normal forwards;
