@@ -152,6 +152,23 @@ body{
     #Image{
         height: 40px;
     }
+
+    #vierPassword{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        justify-content: end;
+    }
+
+    #Check{
+        background: red;
+    }
+
+    #Box{
+        font-size: 15px;
+        color: #343434;
+        font-weight: bold;
+    }
 }
 
 @media (min-width: 768px){
@@ -294,6 +311,23 @@ body{
 
     #Image{
         height: 40px;
+    }
+
+    #vierPassword{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        justify-content: end;
+    }
+
+    #Check{
+        background: red;
+    }
+
+    #Box{
+        font-size: 15px;
+        color: #343434;
+        font-weight: bold;
     }
 }
 

@@ -1,22 +1,13 @@
 let checkbox = document.getElementById('Check')
-let senhar = document.getElementById('inputOne')
-
+let list = ["#inputOne", "#inputTwo"];
 checkbox.addEventListener('change', function () {
-    if(checkbox.checked){
-        senhar.type = 'text';
-    } else {
-        senhar.type = 'password';
-    }
-});
+    for (let i = 0; i <= 2; i ++) {
+        let senhar = document.querySelector(list[i]);
 
-
-let checkboxx = document.getElementById('Titl')
-let senharr = document.getElementById('inputTwo')
-
-checkboxx.addEventListener('change', function () {
-    if(checkboxx.checked){
-        senharr.type = 'text';
-    } else {
-        senharr.type = 'password';
+        if(checkbox.checked){
+            senhar.type = 'text';
+        } else {
+            senhar.type = 'password';
+        }
     }
 });
