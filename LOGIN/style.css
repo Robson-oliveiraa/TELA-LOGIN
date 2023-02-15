@@ -43,15 +43,15 @@ body{
         display: flex;
         flex-direction: column;
         border-radius: 5px;
-        height: 200px;
+        height: 185px;
         padding: 20px;
         border: solid 1px black;
-        animation: Login 1s ease-in-out 0.5s 1 normal forwards;
+        animation: Loginn 1s ease-in-out 0.5s 1 normal forwards;
         opacity: 0;
         box-shadow: 2px 2px 2px #6d6d6d ;
     }
 
-    @keyframes Login{
+    @keyframes Loginn{
         from {
             transform: translateX(-500px);
             opacity: 0;
@@ -152,23 +152,6 @@ body{
     #Image{
         height: 40px;
     }
-
-    #vierPassword{
-        display: flex;
-        flex-direction: row;
-        gap: 5px;
-        justify-content: end;
-    }
-
-    #Check{
-        background: red;
-    }
-
-    #Box{
-        font-size: 15px;
-        color: #343434;
-        font-weight: bold;
-    }
 }
 
 @media (min-width: 768px){
@@ -205,15 +188,15 @@ body{
         display: flex;
         flex-direction: column;
         border-radius: 5px;
-        height: 200px;
+        height: 185px;
         padding: 20px;
         border: solid 1px black;
-        animation: Login 1s ease-in-out 0.5s 1 normal forwards;
+        animation: Loginn 1s ease-in-out 0.5s 1 normal forwards;
         opacity: 0;
         box-shadow: 2px 2px 2px #6d6d6d ;
     }
 
-    @keyframes Login{
+    @keyframes Loginn{
         from {
             transform: translateX(-500px);
             opacity: 0;
@@ -312,23 +295,6 @@ body{
     #Image{
         height: 40px;
     }
-
-    #vierPassword{
-        display: flex;
-        flex-direction: row;
-        gap: 5px;
-        justify-content: end;
-    }
-
-    #Check{
-        background: red;
-    }
-
-    #Box{
-        font-size: 15px;
-        color: #343434;
-        font-weight: bold;
-    }
 }
 
 @media (min-width: 1024px){
@@ -365,15 +331,15 @@ body{
         display: flex;
         flex-direction: column;
         border-radius: 5px;
-        height: 200px;
+        height: 185px;
         padding: 20px;
         border: solid 1px black;
-        animation: Login 1s ease-in-out 0.5s 1 normal forwards;
+        animation: Loginn 1s ease-in-out 0.5s 1 normal forwards;
         opacity: 0;
         box-shadow: 2px 2px 2px #6d6d6d ;
     }
 
-    @keyframes Login{
+    @keyframes Loginn{
         from {
             transform: translateX(-500px);
             opacity: 0;
@@ -474,15 +440,17 @@ body{
         height: 60px;
     }
 
-    #vierPassword{
-        display: flex;
-        flex-direction: row;
-        gap: 5px;
-        justify-content: end;
+    #vierPassword input{
+        display: none;
     }
 
-    #Check{
-        background: red;
+    #vierPassword input + label:before{
+        content: '';
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 5px 0 0;
     }
 
     #Box{
