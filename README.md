@@ -4,4 +4,4 @@ em previr o back-end.
 
 Linguagens Usadas foram:``` Html, CSS e JavaScript.```
 
-Bom não tenho o contume de escrever muito então não seou bom com palavras, por enquanto é isso Obrigado por ver o meu Projeto.
+Bom não tenho o costume de escrever muito então não sou muito bom com palavras, por enquanto é isso Obrigado por ver o meu Projeto.
